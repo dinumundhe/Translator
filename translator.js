@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        All In One Translator - Amazon
-// @namespace   sumedha
+// @namespace   msumedhadmundhe
 // @description Auto translates all Amazon market places, Argus dashboard as well as all the foreign language web pages required for external research to English. 
 // @include     *://*/*
 // @license     MIT
