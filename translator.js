@@ -5,6 +5,7 @@
 // @include     *://*/*
 // @license     MIT
 // @author      msumedha, dmundhe
+// @downloadURL https://greasyfork.org/en/scripts/423548-all-in-one-translator-amazon
 // @run-at      document-body
 // @exclude     /^.translate.googleapis.com./
 // @version     1.0
