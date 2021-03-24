@@ -8,6 +8,7 @@
 // @downloadURL https://greasyfork.org/en/scripts/423548-all-in-one-translator-amazon
 // @run-at      document-body
 // @exclude     /^.translate.googleapis.com./
+// @exclude     /https://argus.aka.amazon.com/*
 // @version     1.0
 // @grant       none
 // @noframes
