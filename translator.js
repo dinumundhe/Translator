@@ -13,7 +13,6 @@
 // @noframes
 // ==/UserScript==
 
-
 var amazonDomain;
 for (amazonDomain = window.location.hostname.split("."); 2 < amazonDomain.length;){
     amazonDomain.shift();
