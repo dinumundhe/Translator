@@ -4,14 +4,18 @@
 // @description Auto translates all Amazon market places, Argus dashboard as well as all the foreign language web pages required for external research to English. 
 // @include     *://*/*
 // @author      msumedha, dmundhe
-// @downloadURL https://greasyfork.org/en/scripts/423548-all-in-one-translator-amazon
 // @run-at      document-body
 // @exclude     /^.translate.googleapis.com./
 // @exclude     /https://argus.aka.amazon.com/*
+// @exclude     /https://www.amazon.com/*
+// @exclude     /https://www.amazon.co.uk/*
+// @exclude     /https://www.amazon.au/*
+// @exclude     /https://www.amazon.ca/*
 // @version     1.0
 // @grant       none
 // @noframes
 // ==/UserScript==
+
 
 var amazonDomain;
 for (amazonDomain = window.location.hostname.split("."); 2 < amazonDomain.length;){
